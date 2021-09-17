@@ -4,3 +4,7 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: AuthenticationApp
+          uri: lb://AuthenticationApp
+          predicates:
+            - Path=/user/**
