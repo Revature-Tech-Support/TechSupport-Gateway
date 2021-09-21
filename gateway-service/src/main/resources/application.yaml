@@ -8,3 +8,7 @@ spring:
           uri: lb://AuthenticationApp
           predicates:
             - Path=/user/**
+        - id: websocket-server
+          uri: lb://websocket-server
+          predicates:
+            - Path=/ws/**
