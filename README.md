@@ -7,7 +7,7 @@ The Gateway and Discovery Service for the application
 
 
 ## Goal:
-Connecting all the microservice together for a functional chat application
+Connecting all the microservices together for a functional chat application
 
 
 ## User Stories:
@@ -24,7 +24,7 @@ Connecting all the microservice together for a functional chat application
 ### Admin
 - As an Admin
 - I want a gateway service
-- So that I can connect all frontend features with all backend end features for the User and Tech Support
+- So that I can connect all frontend features with all backend features for the User and Tech Support
 
 
 ## Technology:
