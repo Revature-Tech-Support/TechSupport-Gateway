@@ -12,3 +12,11 @@ spring:
           uri: lb://websocket-server
           predicates:
             - Path=/ws/**
+        - id: Analytics
+          uri: lb://Analytics
+          predicates:
+            - Path=/analysis/**
+        - id: SessionManagerApp
+          uri: lb://SessionManagerApp
+          predicates:
+            - Path=/queue/**
