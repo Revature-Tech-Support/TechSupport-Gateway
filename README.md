@@ -33,4 +33,3 @@ Connecting all the microservices together for a functional chat application
 - Spring Cloud Gateway
 - Spring Cloud Netflix
 - Maven
-- Cassandra
