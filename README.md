@@ -29,13 +29,8 @@ Connecting all the microservices together for a functional chat application
 
 ## Technology:
 - Java
-   - Google Standards
-   - Lombok
 - Spring Boot
-- JUnit 5
-- Logback classic (SLF4J)
+- Spring Cloud Gateway
+- Spring Cloud Netflix
 - Maven
-- Reactor Netty
 - Cassandra
-- Spring Webflux
-- Amazon Web Services
